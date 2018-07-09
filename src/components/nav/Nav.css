@@ -1,0 +1,14 @@
+.main {
+    display: flex;
+    flex: 1;
+}
+
+.placeholder-nav {
+    display: flex;
+    flex: 0.3;
+}
+
+.main--nav {
+    display: flex;
+    flex: 1;
+}

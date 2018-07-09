@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.mainContainer {
+    margin: none;
+}
+
+.first-hept {
+    background: #7835E4;
+    height: 80vh;
+    -webkit-clip-path: polygon(0 0, 100% 0%, 100% 82%, 0% 100%);
+    clip-path: polygon(0 0, 100% 0%, 100% 82%, 0% 100%);
+    z-index: 0;
+}
+
+.second-hept{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 80vh;
+    background: #FDCFE9;
+    -webkit-clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 81%);
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 81%);
+    z-index: -1;
+}
+
+.third-hept {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 80vh;
+    background: #ECEDEE;
+    z-index: -2;
+}
+
+.main-nav-container {
+    display: flex;
+    border: solid 2px red;
+    flex: 1;
+}
+
+.navbar-static-login {
+    border-radius: 20px !important;
+}
