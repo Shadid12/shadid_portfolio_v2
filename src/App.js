@@ -34,7 +34,20 @@ export default class App extends React.Component {
                 <div className='mid-card'>
                     <div className='card card-1'>
                        <div className='card-img-container'>
+                        Shadid Haque
+                       </div>
+                       <div className='card-img-container'>
                             <img src='https://i.imgur.com/XyGjVux.jpg' className='my-img'/>
+                       </div>
+                       <div className='card-img-container'>
+                            <a className='btn btn-info btn-rounded btn-sm waves-effect waves-light navbar-static-login'>
+                                About Me
+                            </a>
+                       </div>
+                       <div className='card-img-container'>
+                            <a className="btn-floating btn-lg btn-li"><i className="fa fa-linkedin"></i></a>
+                            <a className="btn-floating btn-lg btn-git"><i className="fa fa-github"></i></a>
+                            <a className="btn-floating btn-lg btn-so"><i className="fa fa-stack-overflow"></i></a>
                        </div>
                     </div>
                 </div>
