@@ -1,8 +1,7 @@
 import React from 'react';
 
 // components
-import Nav from './components/nav/Nav';
-import { Navbar, NavbarBrand, NavbarNav, NavItem, NavLink } from 'mdbreact';
+import Hero from './components/Hero/Hero';
 import { BrowserRouter as Router } from 'react-router-dom';
 
 // css
@@ -16,24 +15,28 @@ export default class App extends React.Component {
         return(
             <div className='mainContainer'>
                 <div className='first-hept'>
-                <Router>
-                    <nav className='navbar fixed-top navbar-expand-md navbar-light white double-nav scrolling-navbar'>
-                        <div className='float-left'>
-                            <a className='slide-out'>
-                              <i className='fa fa-bars'></i>  
-                            </a>
-                        </div>
-                        <ul className='nav navbar-nav nav-flex-icons ml-auto'>
-                            <a className='btn btn-info btn-rounded btn-sm waves-effect waves-light navbar-static-login'>
-                                Login
-                                <i className='fa fa-sign-in ml-2'></i>
-                            </a>
-                        </ul>   
-                    </nav>
-                </Router>
-                    {/* <div className='main-nav-container'>
-                        <Nav />
-                    </div> */}
+                    <Router>
+                        <nav className='navbar fixed-top navbar-expand-md navbar-light white double-nav scrolling-navbar'>
+                            <div className='float-left'>
+                                <a className='slide-out'>
+                                <i className='fa fa-bars'></i>  
+                                </a>
+                            </div>
+                            <ul className='nav navbar-nav nav-flex-icons ml-auto'>
+                                <a className='btn btn-info btn-rounded btn-sm waves-effect waves-light navbar-static-login'>
+                                    Login
+                                    <i className='fa fa-sign-in ml-2'></i>
+                                </a>
+                            </ul>   
+                        </nav>
+                    </Router>
+                </div>
+                <div className='mid-card'>
+                    <div className='card card-1'>
+                       <div className='card-img-container'>
+                            <img src='https://i.imgur.com/XyGjVux.jpg' className='my-img'/>
+                       </div>
+                    </div>
                 </div>
                 <div className='second-hept'>hey</div>
                 <div className='third-hept'>third hept</div>
